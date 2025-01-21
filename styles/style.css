@@ -1,0 +1,37 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    height: 293px;
+    font-size: 18px;
+}
+
+.navigation {
+    padding-left: 50px;
+}
+
+.navigation__list {
+    display: flex;
+    gap: 34px;
+    list-style-type: circle;
+}
+
+.cover {
+
+}
+
+.description {
+
+}
+
+.button {
+
+}
+
+.lots {
+
+}
+
+.about {
+
+}
