@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
+    <!-- ШАПКА -------------------------------------------------------------->
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-        <li class="header__links-links-item--no-bullit">
+        <li class="header__links-list-item--no-bullit">
             главная
         </li>
-        <li class="header__links-links-item">
+        <li class="header__links-list-item">
           <a class="header__link-active" href="#0">
             посмотреть лоты
           </a>
         </li>
-        <li class="header__links-links-item">
+        <li class="header__links-list-item">
           <a class="header__link-active" href="#0">
             об аукционе
           </a>
@@ -39,11 +40,14 @@
         наб. Принсенграхт 263- 265, Амстердам
       </address>
     </header>
-
+    <!-- ОСНОВА -------------------------------------------------------------->
     <main>
+      <!-- КОВЕР И НАЗВАНИЕ -------------------------------------------------------------->
       <section class="cover">
-        <h1>
-
+        <h1 class="cover__title">
+          <span class="aligned-text">ОНО</span>
+          <span class="aligned-text aligned-text__center">ТЕБЕ</span>
+          <span class="aligned-text aligned-text__right" >НАДО</span>
         </h1>
         <div class="description">
           <p>
@@ -53,8 +57,9 @@
 
           </button>
         </div>
+        <div class="overlay"></div>
       </section>
-
+      <!-- КАРТОЧКИ -------------------------------------------------------------->
       <section class="lots">
         <h2>
 
@@ -80,7 +85,7 @@
 
         </a>
       </section>
-
+      <!-- ОБ АУКЦИОНЕ -------------------------------------------------------------->
       <section class="about">
         <div>
 
@@ -95,7 +100,7 @@
         </div>
       </section>
     </main>
-
+    <!-- ПОДВАЛ -------------------------------------------------------------->
     <footer>
       <address>
 

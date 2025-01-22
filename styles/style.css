@@ -22,7 +22,7 @@
     list-style-type: circle;
 }
 
-.header__links-links-item--no-bullit {
+.header__links-list-item--no-bullit {
     list-style: none;
 }
 
@@ -44,16 +44,55 @@
 }
 
 .cover {
+    position: relative;
+    height: 757px;
+    background-color: aquamarine; /* TEMP */
+}
 
+.cover__title {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    inset: 165px 50px 207px 50px;
+    width: 1000px;
+    height: 385px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+}
+
+.aligned-text {
+    display: block;
+}
+
+.aligned-text__center {
+    text-align: center;
+}
+
+.aligned-text__right {
+    text-align: right;
+}
+
+.button {
+    position: absolute;
+}
+
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: 1;
 }
 
 .description {
 
 }
 
-.button {
-
-}
 
 .lots {
 
