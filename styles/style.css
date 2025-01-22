@@ -1,3 +1,9 @@
+.test {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -7,13 +13,33 @@
 }
 
 .navigation {
-    padding-left: 50px;
+    margin-left: 50px;
 }
 
-.navigation__list {
+.navigation-list {
     display: flex;
-    gap: 34px;
+    gap: 31px;
     list-style-type: circle;
+}
+
+.navigation-list__leading {
+    list-style: none;
+}
+
+.logo {
+    display: block;
+}
+
+.logo--header {
+    width: 148px;
+    height: 105px;
+}
+
+.address {
+    max-width: 240px;
+    justify-self: end;
+    margin-right: 50px;
+    line-height: 24.3px;
 }
 
 .cover {
