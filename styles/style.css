@@ -46,7 +46,10 @@
 .cover {
     position: relative;
     height: 757px;
-    background-color: aquamarine; /* TEMP */
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .cover__title {
@@ -63,8 +66,32 @@
     letter-spacing: 0.3em;
 }
 
+.cover__description {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.cover__description-text {
+    position: absolute;
+    z-index: 2;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    word-spacing: 0.9em;
+}
+
+.bet-button {
+    position: absolute;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
 .aligned-text {
     display: block;
+    margin-bottom: 20px;
 }
 
 .aligned-text__center {
@@ -73,10 +100,6 @@
 
 .aligned-text__right {
     text-align: right;
-}
-
-.button {
-    position: absolute;
 }
 
 
@@ -89,9 +112,7 @@
     z-index: 1;
 }
 
-.description {
 
-}
 
 
 .lots {
