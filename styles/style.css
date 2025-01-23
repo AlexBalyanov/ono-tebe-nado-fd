@@ -45,6 +45,7 @@
 
 .cover {
     position: relative;
+    display: flex;
     height: 757px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
@@ -69,20 +70,33 @@
 .cover__description {
     position: absolute;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    margin: 0 50px 50px 50px;
+    width: 1000px;
 }
 
 .cover__description-text {
-    position: absolute;
     z-index: 2;
+    align-self: center;
     text-transform: uppercase;
     color: #fff;
     font-size: 22px;
     word-spacing: 0.9em;
+    line-height: 28px;
 }
 
 .bet-button {
-    position: absolute;
+    z-index: 2;
+    width: 256px;
+    height: 51px;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .no-letter-spacing {
