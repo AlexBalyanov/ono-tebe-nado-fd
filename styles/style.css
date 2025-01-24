@@ -259,3 +259,46 @@
 .about__text-paragraph--spacing {
     margin-bottom: 24px;
 }
+
+.footer__grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.footer {
+    height: 180px;
+    margin-top: 180px; 
+}
+
+.footer__address {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 50px;
+}
+
+.footer__menu {
+    font-size: 18px;
+}
+
+.footer__links-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+}
+
+.footer_social-list {
+    display: flex;
+    justify-self: end;
+    gap: 48px;
+    list-style: none;
+    width: 240px;
+    height: 48px;
+    margin-right: 50px;
+}
+
+.footer__social-list-item {
+    height: 100%;
+}
+
