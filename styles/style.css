@@ -3,7 +3,8 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    height: 293px;
+    padding-top: 92px;
+    padding-bottom: 96px;
 }
 
 .header__menu {
@@ -38,7 +39,8 @@
 .cover {
     position: relative;
     display: flex;
-    height: 757px;
+    justify-content: center;
+    min-height: 757px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -46,12 +48,10 @@
 }
 
 .cover__title {
-    position: absolute;
-    inset: 165px 50px 207px 50px;
+    padding-top: 165px;
     z-index: 2;
     display: block;
     width: 1000px;
-    height: 385px;
     color: #fff;
     font-weight: 700;
     font-size: 100px;
